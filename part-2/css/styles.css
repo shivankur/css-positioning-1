@@ -16,7 +16,11 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 30%;
+  float: left;
+  padding-right: 20px;
+
+
 }
 
 figure {
@@ -26,4 +30,24 @@ figure {
 .film {
   width: 50%;
   margin: 40px auto;
+  border: 3px solid #b8b8b8;
+  width: 60%;
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.action-watch-later {
+  position:absolute;
+  right: 780px;
+  top: 30px;
+  color: red;
+}
+
+.action-like {
+  position:absolute;
+  left: 982px;
+  bottom: 32px;
+  color: red;
 }
